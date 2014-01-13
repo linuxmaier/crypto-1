@@ -19,7 +19,7 @@ def xor_bin(bin1, bin2):
 
     if len(bin1) != len(bin2):
         print("The values are not the same length.")
-        return null
+        return None
 
     i = 0
     while i < len(bin1):
@@ -35,8 +35,8 @@ def xor_hex(hex1, hex2):
     bin2 = hex_to_bin(hex2)
 
     bin_result = xor_bin(bin1, bin2)
-    if bin_result = null:
-        return null
+    if bin_result == None:
+        return None
     return bin_to_hex(bin_result)
 
 key = xor_hex(dawn_hex, cipher_hex)
