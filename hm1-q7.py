@@ -41,4 +41,6 @@ def xor_hex(hex1, hex2):
 
 key = xor_hex(dawn_hex, cipher_hex)
 
-print(xor_hex(dusk_hex, key))
+print("The encrypted version of 'attack at dusk' is " + xor_hex(dusk_hex, key))
+
+input("Press Enter to close.")
