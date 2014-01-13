@@ -35,6 +35,8 @@ def xor_hex(hex1, hex2):
     bin2 = hex_to_bin(hex2)
 
     bin_result = xor_bin(bin1, bin2)
+    if bin_result = null:
+        return null
     return bin_to_hex(bin_result)
 
 key = xor_hex(dawn_hex, cipher_hex)
