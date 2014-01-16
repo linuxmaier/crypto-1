@@ -1,6 +1,6 @@
 dusk_hex = "61747461636b206174206475736b"
 dawn_hex = "61747461636b206174206461776e"
-cipher_hex = "6c73d5240a948c86981bc294814d"
+cipher_hex = "09e1c5f70a65ac519458e7e53f36"
 
 def hex_to_bin(hex):
     hex_val = hex
