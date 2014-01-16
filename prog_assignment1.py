@@ -29,7 +29,6 @@ def bin_to_hex(bin):
     
     return hex(int(bin, 2))[2:].zfill(bin_len)
 
-
 def xor_bin(bin1, bin2):
     xor_result = ''
 
